@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <settings>
+        <setting name="callSettersOnNulls" value="true"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+    	<typeAlias type="com.ssafy.happyhouse.dto.BoardDto" alias="board"></typeAlias>
+    	<typeAlias type="com.ssafy.happyhouse.dto.HouseInfoDto" alias="houseInfo"></typeAlias>
+    	<typeAlias type="com.ssafy.happyhouse.dto.NoticeDto" alias="notice"></typeAlias>
+    	<typeAlias type="com.ssafy.happyhouse.dto.BoardParamDto" alias="boardParam"></typeAlias>
+    	<typeAlias type="com.ssafy.happyhouse.dto.NoticeParamDto" alias="noticeParam"></typeAlias>
+    </typeAliases>
+    
+    <mappers>
+<!--        <mapper resource="mapper/board_query.xml"/>-->
+        <mapper resource="mapper/login_query.xml"/>
+        <mapper resource="mapper/location_query.xml"/>
+        <mapper resource="mapper/house_deal.xml"/>
+        <mapper resource="mapper/house_info.xml"/>
+        <mapper resource="mapper/board_query.xml"/>
+        <mapper resource="mapper/notice_query.xml"/>
+        <mapper resource="mapper/bookmark_query.xml"/>
+    </mappers>
+</configuration>

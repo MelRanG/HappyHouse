@@ -1,0 +1,48 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.dao.NoticeDao">
+
+
+	<select id="findByNotices" parameterType="NoticeParam" resultType="notice">
+		select id, title, writer, content, reg_date from notice
+		order by id desc
+		LIMIT #{limit} OFFSET #{offset}
+	</select>
+	
+	<select id="findByNoticesTotalCount" resultType="int">
+		SELECT COUNT(*) FROM notice
+	</select>
+	
+	<select id="findBySearchNotices" parameterType="noticeParam" resultType="notice">
+			select id, title, writer, content, reg_date from notice
+		    where title LIKE CONCAT('%', #{searchWord} ,'%')
+		    order by id desc
+		  LIMIT #{limit} OFFSET #{offset}
+	</select>
+	
+	<select id="findBySearchNoticesCount" resultType="int">
+		SELECT COUNT(*) FROM notice
+		where title LIKE CONCAT('%', #{searchWord} ,'%')
+	</select>
+	
+	<select id="findByNoticeDetail" resultType="notice" parameterType="int">
+		select id, title, writer, content, reg_date from notice
+		where id = #{id}
+	</select>
+
+	<insert id="insertNotice" parameterType="notice">
+		insert notice (title, writer, content, reg_date) values 
+		(#{title}, #{writer}, #{content}, now()) 
+	</insert>
+	
+	<update id="updateNotice" parameterType="notice">
+		update notice set
+			title = #{title}, content = #{content}, reg_date = now()
+			where id = #{id}
+	</update>
+	
+	<delete id="deleteNotice">
+		delete from notice where id = #{id}
+	</delete>
+
+</mapper>

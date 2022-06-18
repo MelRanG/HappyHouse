@@ -1,0 +1,42 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.dao.BookmarkDao">
+    <insert id="bookmarkInsert" parameterType="com.ssafy.happyhouse.dto.BookmarkDto">
+        insert into bookmark (userSeq, houseNo)
+            values (#{userSeq}, #{houseNo})
+    </insert>
+<!--    <delete id="bookmarkDelete" parameterType="com.ssafy.happyhouse.dto.BookmarkResultDto">-->
+<!--        delete from bookmark where userSeq=#{userSeq} and houseNo=#{houseNo}-->
+<!--    </delete>-->
+    <delete id="bookmarkDelete" parameterType="int">
+        delete from bookmark where bookmarkId=#{bookmarkId}
+    </delete>
+    <select id="bookmarkList" parameterType="int" resultType="com.ssafy.happyhouse.dto.BookmarkResultDto">
+        select b.bookmarkId, hd.house_no,
+            hd.apt_name, hd.sido_name, hd.gugun_name, hd.dong_name, hd.jibun,
+            hd.build_year, hd.lat, hd.lng
+        from bookmark as b
+        join (
+                select h.no as house_no,
+                    h.AptName as apt_name,
+                    d.city_name as sido_name,
+                    d.gugun_name as gugun_name,
+                    h.dong as dong_name,
+                    h.jibun as jibun,
+                    h.buildYear as build_year,
+                    h.lat as lat,
+                    h.lng as lng
+                from houseinfo as h
+                join dong_code d
+                on h.code = d.gugun_code
+                and h.dong = d.name
+            ) as hd
+        on b.houseNo=hd.house_no
+        where userSeq=#{userSeq}
+    </select>
+<!--    <select id="bookmarkList" parameterType="int" resultType="com.ssafy.happyhouse.dto.BookmarkDto">-->
+<!--        select *-->
+<!--        from bookmark-->
+<!--        where userSeq=#{userSeq}-->
+<!--    </select>-->
+</mapper>

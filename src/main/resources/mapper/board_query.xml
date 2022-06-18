@@ -1,0 +1,70 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.dao.BoardDao">
+	<select id="findByBoards" parameterType="boardParam" resultType="board">
+		select id, title, writer, content, reg_date, recommend_count from board
+		order by id desc
+		LIMIT #{limit} OFFSET #{offset}
+	</select>
+	
+	<select id="findByBoardsTotalCount" resultType="int">
+		SELECT COUNT(*) FROM BOARD
+	</select>
+	
+	<select id="findBySearchBoards" parameterType="boardParam" resultType="board">
+			select id, title, writer, content, reg_date, recommend_count from board
+		    where title LIKE CONCAT('%', #{searchWord} ,'%')
+		    order by id desc
+		  LIMIT #{limit} OFFSET #{offset}
+	</select>
+	
+	<select id="findBySearchBoardsCount" resultType="int">
+		SELECT COUNT(*) FROM BOARD
+		where title LIKE CONCAT('%', #{searchWord} ,'%')
+	</select>
+	
+	<select id="findByBoardDetail" resultType="board" parameterType="int">
+		select id, title, writer, content, reg_date, recommend_count from board
+		where id = #{id}
+	</select>
+
+	<insert id="insertBoard" parameterType="board">
+		insert board (title, writer, content, reg_date) values 
+		(#{title}, #{writer}, #{content}, now()) 
+	</insert>
+	
+	<update id="updateBoard" parameterType="board">
+		update board set
+			title = #{title}, content = #{content}, reg_date = now()
+			where id = #{id}
+	</update>
+	
+	<delete id="deleteBoard">
+		delete from board where id = #{id}
+	</delete>
+	
+	<update id="updateBoardRecommend" parameterType="int">
+		update board set recommend_count = recommend_count + 1
+		where id = #{id}
+	</update>
+	
+	<update id="updateBoardNotRecommend" parameterType="int">
+		update board set recommend_count = recommend_count - 1
+		where id = #{id}
+	</update>
+	
+	<select id="selectRecommend" parameterType="com.ssafy.happyhouse.dto.RecommendDto" resultType="int">
+		select count(*) from recommend 
+		where user_id = #{userId} and board_id = #{boardId}
+	</select>
+	
+	<insert id="insertRecommend" parameterType="com.ssafy.happyhouse.dto.RecommendDto">
+		insert into recommend (user_id, board_id, regDate) values (#{userId}, #{boardId}, now())
+	</insert>
+	
+	<delete id="deleteRecommend" parameterType="com.ssafy.happyhouse.dto.RecommendDto">
+		delete from recommend
+		where user_id = #{userId} and board_id = #{boardId}
+	</delete>
+	
+</mapper>

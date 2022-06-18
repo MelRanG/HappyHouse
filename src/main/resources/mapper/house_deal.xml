@@ -1,0 +1,11 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.dao.HouseDealDao">
+	<select id="findByHouseDeals" parameterType="String"
+		resultType="com.ssafy.happyhouse.dto.HouseDealDto">
+		select no, dealYear, dealMonth, dealDay, dealAmount, floor, area from housedeal
+		where dong = #{dong} and AptName = #{AptName}
+		order by dealYear-0 desc, dealMonth-0 desc, dealDay-0 desc
+	</select>
+
+</mapper>

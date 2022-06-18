@@ -1,0 +1,38 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.dao.HouseInfoDao">
+
+<resultMap type="houseInfo" id="HouseInfoResult">
+	<result column="AptName" property="AptName"/>
+	<result column="city_name" property="sidoName"/>
+	<result column="gugun_name" property="gugunName"/>
+	<result column="dong" property="dongName"/>
+	<result column="jibun" property="jibun"/>
+	<result column="buildYear" property="buildYear"/>
+	<result column="no" property="houseNo"/>
+	<result column="lat" property="lat"/>
+	<result column="lng" property="lng"/>
+</resultMap>
+
+	<select id="findByAddress" parameterType="String"
+		resultMap="HouseInfoResult">
+		select distinct hi.AptName, dc.city_name, dc.gugun_name,
+		hi.dong, hi.jibun, hi.buildYear, hi.no, hi.lat, hi.lng
+		from houseinfo hi join dong_code dc
+		on dc.gugun_code = hi.code
+		AND hi.dong = #{dong}
+		order by hi.buildYear desc
+	</select>
+	
+	<select id="findByAptName" parameterType="String"
+		resultMap="HouseInfoResult">
+		select distinct hi.AptName, dc.city_name, dc.gugun_name,
+		hi.dong, hi.jibun, hi.buildYear, hi.no, hi.lat, hi.lng
+		from houseinfo hi join dong_code dc
+		on dc.gugun_code = hi.code
+		AND hi.AptName like CONCAT('%',#{aptName},'%')
+		order by hi.buildYear desc
+	</select>
+
+</mapper>
+	

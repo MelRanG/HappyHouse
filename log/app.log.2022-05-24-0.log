@@ -1,0 +1,410 @@
+2022-05-24 09:09:57.481  INFO 7432 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 7432 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 09:09:57.489  INFO 7432 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 09:09:57.570  INFO 7432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-24 09:09:57.570  INFO 7432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-24 09:09:58.946  INFO 7432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 09:09:59.098  INFO 7432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interfaces.
+2022-05-24 09:09:59.351  WARN 7432 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 09:10:00.341  INFO 7432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 09:10:00.366  INFO 7432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 09:10:00.367  INFO 7432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 09:10:00.522  INFO 7432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 09:10:00.523  INFO 7432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2951 ms
+2022-05-24 09:10:00.835  INFO 7432 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 09:10:00.930  INFO 7432 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 09:10:01.326  INFO 7432 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 09:10:01.662  INFO 7432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 09:10:03.316  INFO 7432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 09:10:03.348  INFO 7432 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 09:10:04.560  INFO 7432 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 09:10:04.575  INFO 7432 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 09:10:06.604  INFO 7432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 09:10:06.917  INFO 7432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 09:10:06.941  INFO 7432 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 10.148 seconds (JVM running for 12.678)
+2022-05-24 09:12:55.194  INFO 10976 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 10976 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 09:12:55.200  INFO 10976 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 09:12:55.275  INFO 10976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-24 09:12:55.276  INFO 10976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-24 09:12:56.366  INFO 10976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 09:12:56.535  INFO 10976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interfaces.
+2022-05-24 09:12:56.775  WARN 10976 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 09:12:57.682  INFO 10976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 09:12:57.702  INFO 10976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 09:12:57.702  INFO 10976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 09:12:57.856  INFO 10976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 09:12:57.857  INFO 10976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2580 ms
+2022-05-24 09:12:58.202  INFO 10976 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 09:12:58.296  INFO 10976 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 09:12:58.506  INFO 10976 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 09:12:58.738  INFO 10976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 09:13:00.318  INFO 10976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 09:13:00.330  INFO 10976 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 09:13:01.384  INFO 10976 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 09:13:01.416  INFO 10976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 09:13:03.394  WARN 10976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-24 09:13:03.725  WARN 10976 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-24 09:13:03.728  INFO 10976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 09:13:03.741  INFO 10976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 09:13:03.757  INFO 10976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 09:13:03.761  INFO 10976 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-24 09:13:03.788  INFO 10976 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-24 09:13:03.837 ERROR 10976 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-05-24 09:14:40.893  INFO 7432 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 09:14:40.897  INFO 7432 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 09:14:40.906  INFO 7432 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 09:14:41.337  INFO 7432 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 7432 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 09:14:41.338  INFO 7432 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 09:14:42.850  INFO 7432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 09:14:42.927  INFO 7432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2022-05-24 09:14:43.133  WARN 7432 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 09:14:43.499  INFO 7432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 09:14:43.500  INFO 7432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 09:14:43.500  INFO 7432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 09:14:43.536  INFO 7432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 09:14:43.537  INFO 7432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2167 ms
+2022-05-24 09:14:43.631  INFO 7432 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 09:14:43.643  INFO 7432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-24 09:14:43.677  INFO 7432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-24 09:14:43.677  INFO 7432 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 09:14:43.738  INFO 7432 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 09:14:43.738  INFO 7432 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 09:14:44.239  INFO 7432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 09:14:44.265  INFO 7432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 09:14:44.285  INFO 7432 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 3.055 seconds (JVM running for 290.023)
+2022-05-24 09:14:44.293  INFO 7432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-24 09:15:23.051  INFO 7432 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 09:15:23.053  INFO 7432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 09:15:23.056  INFO 7432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-24 12:26:25.523  INFO 7432 --- [RMI TCP Connection(209)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-24 12:26:26.288  INFO 7432 --- [RMI TCP Connection(209)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 12:26:26.296  INFO 7432 --- [RMI TCP Connection(209)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-24 12:26:26.308  INFO 7432 --- [RMI TCP Connection(209)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-24 14:14:08.123  INFO 12644 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 12644 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 14:14:08.129  INFO 12644 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 14:14:08.208  INFO 12644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-24 14:14:08.208  INFO 12644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-24 14:14:09.543  INFO 12644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 14:14:09.632  INFO 12644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2022-05-24 14:14:09.903  WARN 12644 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 14:14:10.962  INFO 12644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 14:14:10.972  INFO 12644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 14:14:10.972  INFO 12644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 14:14:11.073  INFO 12644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 14:14:11.074  INFO 12644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2864 ms
+2022-05-24 14:14:11.295  INFO 12644 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 14:14:11.344  INFO 12644 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 14:14:11.600  INFO 12644 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 14:14:12.011  INFO 12644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 14:14:13.141  INFO 12644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 14:14:13.162  INFO 12644 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 14:14:15.082  INFO 12644 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 14:14:15.099  INFO 12644 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:14:16.706  INFO 12644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 14:14:17.025  INFO 12644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 14:14:17.040  INFO 12644 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 9.679 seconds (JVM running for 12.57)
+2022-05-24 14:15:38.885  INFO 12644 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 14:15:38.885  INFO 12644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 14:15:38.886  INFO 12644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-24 14:33:27.595  INFO 12644 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:33:27.600  INFO 12644 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 14:33:27.608  INFO 12644 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 14:33:27.944  INFO 12644 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 12644 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 14:33:27.945  INFO 12644 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 14:33:28.243  INFO 12644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 14:33:28.276  INFO 12644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-05-24 14:33:28.325  WARN 12644 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 14:33:28.477  INFO 12644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 14:33:28.478  INFO 12644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 14:33:28.478  INFO 12644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 14:33:28.494  INFO 12644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 14:33:28.495  INFO 12644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 545 ms
+2022-05-24 14:33:28.554  INFO 12644 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 14:33:28.564  INFO 12644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-24 14:33:28.591  INFO 12644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-24 14:33:28.592  INFO 12644 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 14:33:28.640  INFO 12644 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 14:33:28.641  INFO 12644 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:33:29.188  INFO 12644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 14:33:29.212  INFO 12644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 14:33:29.229  INFO 12644 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 1.334 seconds (JVM running for 1164.759)
+2022-05-24 14:33:29.236  INFO 12644 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-24 14:34:56.555  INFO 12644 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 14:34:56.557  INFO 12644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 14:34:56.563  INFO 12644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-05-24 14:35:07.980  INFO 12644 --- [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-24 14:35:08.863  INFO 12644 --- [RMI TCP Connection(33)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:35:08.866  INFO 12644 --- [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-24 14:35:08.881  INFO 12644 --- [RMI TCP Connection(33)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-24 14:35:17.759  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 24288 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 14:35:17.763  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 14:35:17.838  INFO 24288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-24 14:35:17.839  INFO 24288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-24 14:35:18.695  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 14:35:18.767  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2022-05-24 14:35:18.977  WARN 24288 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 14:35:20.179  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 14:35:20.196  INFO 24288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 14:35:20.197  INFO 24288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 14:35:20.421  INFO 24288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 14:35:20.422  INFO 24288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2582 ms
+2022-05-24 14:35:20.911  INFO 24288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 14:35:20.986  INFO 24288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 14:35:21.148  INFO 24288 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 14:35:21.337  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 14:35:22.518  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 14:35:22.531  INFO 24288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 14:35:23.250  INFO 24288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 14:35:23.257  INFO 24288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:35:24.478  INFO 24288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 14:35:24.823  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 14:35:24.835  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 7.605 seconds (JVM running for 9.085)
+2022-05-24 14:35:30.622  INFO 24288 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 14:35:30.623  INFO 24288 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 14:35:30.628  INFO 24288 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-05-24 14:41:26.055  INFO 24288 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:41:26.061  INFO 24288 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 14:41:26.069  INFO 24288 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 14:41:26.345  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 24288 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 14:41:26.346  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 14:41:26.621  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 14:41:26.658  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-05-24 14:41:26.740  WARN 24288 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 14:41:26.917  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 14:41:26.920  INFO 24288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 14:41:26.921  INFO 24288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 14:41:26.947  INFO 24288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 14:41:26.948  INFO 24288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 598 ms
+2022-05-24 14:41:27.032  INFO 24288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 14:41:27.037  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-24 14:41:27.078  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-24 14:41:27.079  INFO 24288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 14:41:27.141  INFO 24288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 14:41:27.142  INFO 24288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:41:27.645  INFO 24288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 14:41:27.664  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 14:41:27.674  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 1.373 seconds (JVM running for 371.924)
+2022-05-24 14:41:27.677  INFO 24288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-24 14:41:29.976  INFO 24288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 14:41:29.980  INFO 24288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 14:41:29.985  INFO 24288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-05-24 14:42:11.098  INFO 24288 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:42:11.101  INFO 24288 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-24 14:42:11.108  INFO 24288 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-24 14:42:11.442  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 24288 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 14:42:11.443  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 14:42:11.693  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 14:42:11.723  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-05-24 14:42:11.768  WARN 24288 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 14:42:11.918  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 14:42:11.919  INFO 24288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 14:42:11.920  INFO 24288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 14:42:11.935  INFO 24288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 14:42:11.935  INFO 24288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 487 ms
+2022-05-24 14:42:12.036  INFO 24288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 14:42:12.048  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-05-24 14:42:12.090  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-05-24 14:42:12.091  INFO 24288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 14:42:12.165  INFO 24288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 14:42:12.166  INFO 24288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 14:42:12.899  INFO 24288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 14:42:12.923  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 14:42:12.933  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 1.529 seconds (JVM running for 417.183)
+2022-05-24 14:42:12.938  INFO 24288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-24 14:42:43.495  INFO 24288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-24 14:42:43.503  INFO 24288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-24 14:42:43.509  INFO 24288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-05-24 15:58:06.842  INFO 24288 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 15:58:06.845  INFO 24288 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-05-24 15:58:06.850  INFO 24288 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-05-24 15:58:07.156  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Starting HappyHouseFinalApplication using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 24288 (C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal\bin\main started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 15:58:07.157  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 15:58:07.506  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 15:58:07.542  INFO 24288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-05-24 15:58:07.641  WARN 24288 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 15:58:07.907  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-24 15:58:07.909  INFO 24288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-24 15:58:07.909  INFO 24288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-24 15:58:07.940  INFO 24288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-24 15:58:07.941  INFO 24288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 781 ms
+2022-05-24 15:58:08.017  INFO 24288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 15:58:08.027  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-05-24 15:58:08.073  INFO 24288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-05-24 15:58:08.074  INFO 24288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 15:58:08.172  INFO 24288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 15:58:08.172  INFO 24288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 15:58:08.618  INFO 24288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-24 15:58:08.641  INFO 24288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-24 15:58:08.650  INFO 24288 --- [restartedMain] c.s.h.HappyHouseFinalApplication         : Started HappyHouseFinalApplication in 1.536 seconds (JVM running for 4972.9)
+2022-05-24 15:58:08.654  INFO 24288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-24 15:58:10.323  INFO 24288 --- [RMI TCP Connection(101)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-24 15:58:10.935  INFO 24288 --- [RMI TCP Connection(101)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 15:58:10.935  INFO 24288 --- [RMI TCP Connection(101)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-05-24 15:58:10.942  INFO 24288 --- [RMI TCP Connection(101)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-05-24 23:04:33.927  INFO 24020 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 24020 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:04:33.929  INFO 24020 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:04:34.934  INFO 24020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:04:35.062  INFO 24020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:04:35.235  WARN 24020 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:04:36.274  INFO 24020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:04:36.430  INFO 24020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:04:36.896  INFO 24020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:04:37.706  INFO 24020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:04:38.956  INFO 24020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:04:38.993  INFO 24020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:04:39.991  INFO 24020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:04:40.002  INFO 24020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:04:43.275  INFO 24020 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 9.856 seconds (JVM running for 12.112)
+2022-05-24 23:04:43.578  INFO 24020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:04:43.583  INFO 24020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:04:43.605  INFO 24020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:22:43.728  INFO 17700 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 17700 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:22:43.731  INFO 17700 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:22:44.876  INFO 17700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:22:45.050  INFO 17700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:22:45.256  WARN 17700 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:22:46.366  INFO 17700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:22:46.471  INFO 17700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:22:46.826  INFO 17700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:22:47.574  INFO 17700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:22:48.961  INFO 17700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:22:48.990  INFO 17700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:22:50.175  INFO 17700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:22:50.187  INFO 17700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:22:54.370  INFO 17700 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 11.25 seconds (JVM running for 13.321)
+2022-05-24 23:22:54.908  INFO 17700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:22:54.919  INFO 17700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:22:54.945  INFO 17700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:25:36.932  INFO 13324 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 13324 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:25:36.934  INFO 13324 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:25:38.375  INFO 13324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:25:38.635  INFO 13324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 231 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:25:39.054  WARN 13324 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:25:40.140  INFO 13324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:25:40.218  INFO 13324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:25:40.599  INFO 13324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:25:41.426  INFO 13324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:25:42.678  INFO 13324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:25:42.707  INFO 13324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:25:43.861  INFO 13324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:25:43.877  INFO 13324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:25:47.931  INFO 13324 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 11.528 seconds (JVM running for 13.115)
+2022-05-24 23:25:48.252  INFO 13324 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:25:48.260  INFO 13324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:25:48.275  INFO 13324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:26:30.290  INFO 17744 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 17744 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:26:30.293  INFO 17744 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:26:31.534  INFO 17744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:26:31.681  INFO 17744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:26:31.887  WARN 17744 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:26:32.728  INFO 17744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:26:32.846  INFO 17744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:26:33.197  INFO 17744 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:26:33.919  INFO 17744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:26:34.943  INFO 17744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:26:34.972  INFO 17744 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:26:36.435  INFO 17744 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:26:36.448  INFO 17744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:26:40.280  INFO 17744 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 10.741 seconds (JVM running for 12.28)
+2022-05-24 23:26:40.773  INFO 17744 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:26:40.779  INFO 17744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:26:40.787  INFO 17744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:27:41.461  INFO 18636 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 18636 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:27:41.463  INFO 18636 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:27:42.707  INFO 18636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:27:42.852  INFO 18636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:27:43.051  WARN 18636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:27:44.165  INFO 18636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:27:44.307  INFO 18636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:27:44.682  INFO 18636 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:27:45.420  INFO 18636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:27:46.516  INFO 18636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:27:46.549  INFO 18636 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:27:47.737  INFO 18636 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:27:47.751  INFO 18636 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:27:52.066  INFO 18636 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 11.258 seconds (JVM running for 12.823)
+2022-05-24 23:27:52.536  INFO 18636 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:27:52.541  INFO 18636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:27:52.558  INFO 18636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:31:22.731  INFO 27192 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 27192 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:31:22.733  INFO 27192 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:31:23.986  INFO 27192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:31:24.155  INFO 27192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:31:24.375  WARN 27192 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:31:25.553  INFO 27192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:31:25.634  INFO 27192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:31:26.016  INFO 27192 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:31:26.751  INFO 27192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:31:27.786  INFO 27192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:31:27.813  INFO 27192 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:31:28.886  INFO 27192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:31:28.902  INFO 27192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:31:33.098  INFO 27192 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 10.901 seconds (JVM running for 12.645)
+2022-05-24 23:31:33.432  INFO 27192 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:31:33.439  INFO 27192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:31:33.483  INFO 27192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:33:55.928  INFO 12120 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 12120 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:33:55.930  INFO 12120 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:33:57.212  INFO 12120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:33:57.373  INFO 12120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:33:57.676  WARN 12120 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:33:58.904  INFO 12120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:33:59.019  INFO 12120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:33:59.375  INFO 12120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:34:00.098  INFO 12120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:34:01.166  INFO 12120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:34:01.192  INFO 12120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:34:02.298  INFO 12120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:34:02.311  INFO 12120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:34:07.480  INFO 12120 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 12.114 seconds (JVM running for 13.68)
+2022-05-24 23:34:07.802  INFO 12120 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:34:07.810  INFO 12120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:34:07.830  INFO 12120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:34:17.193  INFO 23848 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 23848 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:34:17.197  INFO 23848 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:34:18.353  INFO 23848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:34:18.516  INFO 23848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:34:18.707  WARN 23848 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:34:19.619  INFO 23848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:34:19.715  INFO 23848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:34:20.127  INFO 23848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:34:20.851  INFO 23848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:34:22.212  INFO 23848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:34:22.243  INFO 23848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:34:23.435  INFO 23848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:34:23.447  INFO 23848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:34:27.383  INFO 23848 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 10.745 seconds (JVM running for 12.631)
+2022-05-24 23:34:27.956  INFO 23848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:34:27.963  INFO 23848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:34:28.002  INFO 23848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-24 23:37:31.867  INFO 20824 --- [main] c.s.h.board.BoardsServiceTotalTest       : Starting BoardsServiceTotalTest using Java 1.8.0_251 on DESKTOP-J6G8NQV with PID 20824 (started by se in C:\Users\se\Documents\ssafy_spring_boot_live\HappyHouseFinal)
+2022-05-24 23:37:31.869  INFO 20824 --- [main] c.s.h.board.BoardsServiceTotalTest       : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 23:37:32.983  INFO 20824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-24 23:37:33.130  INFO 20824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interfaces.
+2022-05-24 23:37:33.340  WARN 20824 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userDao' and 'com.ssafy.happyhouse.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2022-05-24 23:37:34.322  INFO 20824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-24 23:37:34.498  INFO 20824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-24 23:37:34.994  INFO 20824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-24 23:37:35.694  INFO 20824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-24 23:37:36.877  INFO 20824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-24 23:37:36.910  INFO 20824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-05-24 23:37:38.055  INFO 20824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-24 23:37:38.087  INFO 20824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:37:43.405  INFO 20824 --- [main] c.s.h.board.BoardsServiceTotalTest       : Started BoardsServiceTotalTest in 12.056 seconds (JVM running for 13.593)
+2022-05-24 23:37:43.739  INFO 20824 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-24 23:37:43.744  INFO 20824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-24 23:37:43.758  INFO 20824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

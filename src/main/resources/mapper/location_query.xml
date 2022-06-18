@@ -1,0 +1,20 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+
+<mapper namespace="com.ssafy.happyhouse.dao.LocationDao">
+	<select id="findBySido" resultType="com.ssafy.happyhouse.dto.SidoDto">
+        select code, name
+          from sido_code;
+	</select>
+	
+	<select id="findByGugun" parameterType="string" resultType="com.ssafy.happyhouse.dto.GugunDto">
+        select distinct name, code 
+          from gugun_code
+         where sido_code = #{sidoCode};
+	</select>
+	
+		<select id="findByDong" parameterType="string" resultType="com.ssafy.happyhouse.dto.DongDto">
+        SELECT code, name FROM dong_code
+         where gugun_code = #{gugunCode};
+	</select>
+</mapper>
+	
