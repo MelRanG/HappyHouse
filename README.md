@@ -34,6 +34,8 @@ Vue에서 요청을 보낼 때 위처럼 비슷한 형식으로 보내서 많이
 하지만 조회하는 게시글마다 select문을 추가로 수행해야 하기 때문에 성능에 좋은 영향을 끼치지 않을 것이라고 판단해서 게시글 테이블에 recommend_count라는 칼럼을 추가해서
 추천할 때마다 count를 증가시키고 감소시키는 방식으로 설계했다.
 
+![image](https://user-images.githubusercontent.com/62234293/174474244-5bfdb463-9304-4409-8d35-ba8f99231e80.png)
+
 
 ## 결과
 ![image](https://user-images.githubusercontent.com/62234293/174473866-e0f2a50e-1e14-4b32-984a-cf8c9efbbf5f.png)
