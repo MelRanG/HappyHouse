@@ -16,3 +16,6 @@
 - Mysql
 
 ## 담당
+![image](https://user-images.githubusercontent.com/62234293/174473796-5be7727a-7a9a-4d9c-a84b-fe559af7ffaf.png)
+
+## 결과
