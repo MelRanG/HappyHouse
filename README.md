@@ -36,7 +36,7 @@ Vue에서 요청을 보낼 때 위처럼 비슷한 형식으로 보내서 많이
 
 ![image](https://user-images.githubusercontent.com/62234293/174474244-5bfdb463-9304-4409-8d35-ba8f99231e80.png)
 
-
+ 
 ## 결과
 ![image](https://user-images.githubusercontent.com/62234293/174473866-e0f2a50e-1e14-4b32-984a-cf8c9efbbf5f.png)
 ![image](https://user-images.githubusercontent.com/62234293/174473870-701c998d-2ca9-4d58-b264-dbbf66bca471.png)
